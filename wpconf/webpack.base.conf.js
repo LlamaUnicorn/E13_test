@@ -22,7 +22,7 @@ module.exports = {
     app: `${PATHS.src}scripts/index.ts`,
   },
   output: {
-    filename: 'js/[name].[hash].js',
+    filename: 'js/[name].[fullhash].js',
   },
   plugins: [
     new MiniCssExtractPlugin({

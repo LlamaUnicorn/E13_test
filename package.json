@@ -11,10 +11,7 @@
     "lint": "eslint . src wpconf",
     "prepare": "husky install"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/llamaunicorn/E13_test"
-  },
+  "repository": "https://github.com/llamaunicorn/E13_test",
   "author": "llamaunicorn",
   "license": "ISC",
   "devDependencies": {
@@ -43,5 +40,7 @@
     "webpack-cli": "^4.9.1",
     "webpack-dev-server": "^4.7.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
 }
